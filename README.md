@@ -1,6 +1,6 @@
 # docker
 # update dns
-1. 在http://tool.chinaz.com/dns查询查询 github.global.ssl.fastly.net 和 assets-cdn.github.com 两个地址，多查几次，选择一个稳定，延迟较低的ip
+1. 在http://tool.chinaz.com/dns查询 github.global.ssl.fastly.net 和 assets-cdn.github.com 两个地址，选择一个稳定，延迟较低的ip
 
 2. 在 /etc/hosts中更新对应ip
 ```python
