@@ -8,5 +8,5 @@ scp -r 99-kubernetes-cri.conf root@${ip}:/tmp/k8s/
 scp -r 10-proxy-ipvs.conf root@${ip}:/tmp/k8s/
 scp -r cp_k8s.sh root@${ip}:/root/
 scp -r cp_k8s.sh root@${ip}:/root/
-scp -r cp_k8s_to_remote.sh root@${ip}:/tmp/k8s/
-scp -r cp_k8s_to_remote.sh root@${ip}:/tmp/k8s/
+scp -r scp_k8s_to_remote.sh root@${ip}:/tmp/k8s/
+scp -r scp_k8s_to_remote.sh root@${ip}:/tmp/k8s/
